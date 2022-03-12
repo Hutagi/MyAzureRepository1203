@@ -36,3 +36,4 @@ WORKDIR /app
 COPY --from=build-env /app/out .
 ENTRYPOINT ["dotnet", "MyFirstAzureWebApi24.dll"]
 
+
